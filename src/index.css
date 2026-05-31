@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Simple global styles — most styling lives in Tailwind classes */
+body {
+  @apply min-h-screen bg-zinc-950 text-zinc-100 antialiased;
+}
+
+#root {
+  @apply min-h-screen;
+}
