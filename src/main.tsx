@@ -4,9 +4,12 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+// Must match Vite `base` in vite.config.ts (GitHub Pages uses /repo-name/)
+const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename || undefined}>
       <App />
     </BrowserRouter>
   </StrictMode>
