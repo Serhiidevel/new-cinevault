@@ -1,3 +1,13 @@
+# Movie Discovery App (New CineVault)
+
+[![Deployed with Vercel](https://vercel.com)](https://vercel.app)
+
+A dynamic movie discovery application where users can browse TMDB trends, search for films, and manage a personalized watchlist via `localStorage`.
+
+*   **Live Demo:** [https://vercel.app](https://new-cinevault.vercel.app/)
+*   **Built With:** React, TypeScript, Vite, Tailwind CSS, TMDB API
+
+
 # CineVault
 
 > Discover movies, explore details, and build your personal watchlist — a clean React portfolio project built for clarity, not complexity.
