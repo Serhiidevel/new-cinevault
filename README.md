@@ -1,6 +1,6 @@
 # Movie Discovery App (New CineVault)
 
-[![Deployed with Vercel](https://vercel.com)](https://vercel.app)
+[Deployed with Vercel](https://vercel.com)](https://vercel.app)
 
 A dynamic movie discovery application where users can browse TMDB trends, search for films, and manage a personalized watchlist via `localStorage`.
 
